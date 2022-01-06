@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SortActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+
+            android:text="Name"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+
+            android:id="@+id/sort_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            style="@style/EditorFieldStyle"
+
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+
+            android:text="Total Salary"/>
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/sort_total_wages"
+           android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            style="@style/EditorFieldStyle"
+
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/container_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                android:text="Present Date"
+                style="@style/CategoryStyle" />
+
+            <!-- Input field -->
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/la"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+
+
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/l_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        />
+
+    <TextView
+        android:id="@+id/total_salary"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+         />
+
+
+</LinearLayout>

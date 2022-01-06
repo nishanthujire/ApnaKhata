@@ -1,0 +1,2 @@
+rootProject.name = "ud845-Pets"
+include ':app'
