@@ -90,7 +90,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     boolean isAllFieldsChecked = false;
 
 
-
+    // this is comment
 
 
 
